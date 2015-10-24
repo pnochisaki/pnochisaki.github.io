@@ -1,1 +1,14 @@
+<style>
+</style>
+<script>
+  var clientHeight = document.getElementById('initials').clientHeight;
+  var bodyHeight = window.innerHeight;
+  window.onresize = resize;
 
+  function resize()
+    {
+     alert("resize event detected!");
+    }
+
+</script>
+<div id="initials">PN</div>
