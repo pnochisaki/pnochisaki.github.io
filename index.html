@@ -1,12 +1,18 @@
 <html>
   <head>
     <style>
+      body {
+    	  display: -ms-flexbox;
+	      display: -webkit-flex;
+	      display: flex;
+
+	      -ms-flex-align: center;
+	      -webkit-align-items: center;
+	      -webkit-box-align: center;
+
+	      align-items: center;        
+      }
       h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);        
         font-family:helvetica, arial;
         font-size:10em;
         text-align:center;
